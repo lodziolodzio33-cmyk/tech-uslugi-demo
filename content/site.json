@@ -1,0 +1,65 @@
+{
+  "name": "IRONCRAFT",
+  "tag": "SOLIDNE ROZWIĄZANIA",
+  "headline": "Budujemy rzeczy,\nktóre zostają na lata.",
+  "intro": "Nowoczesne usługi dla domu, firmy i inwestycji. Terminowo, konkretnie i z dbałością o każdy detal.",
+  "industry": "Budownictwo • Transport • Usługi techniczne",
+  "hero": "Pracujemy solidnie. Ty masz spokój.",
+  "about": "Łączymy doświadczenie, dobre materiały i odpowiedzialność za efekt. Każde zlecenie traktujemy indywidualnie.",
+  "area": "Kluczbork i okolice",
+  "address": "Przykładowa 1, Kluczbork",
+  "cta": "Zapytaj o wycenę",
+  "gallery_title": "Nasze realizacje",
+  "phone": "500 600 700",
+  "email": "kontakt@twojafirma.pl",
+  "whatsapp": "48500600700",
+  "form_endpoint": "",
+  "hours": "Pon.–Pt. 8:00–17:00",
+  "instagram": "",
+  "facebook": "",
+  "map_url": "",
+  "seo_title": "IRONCRAFT | Profesjonalne usługi",
+  "seo_description": "Nowoczesne usługi dla domu, firmy i inwestycji. Terminowo, konkretnie i z dbałością o każdy detal.",
+  "services": [
+    {
+      "number": "01",
+      "title": "Prace budowlane",
+      "description": "Realizacje od przygotowania terenu po wykończenie."
+    },
+    {
+      "number": "02",
+      "title": "Transport i logistyka",
+      "description": "Bezpieczny przewóz i sprawna organizacja dostaw."
+    },
+    {
+      "number": "03",
+      "title": "Montaż i instalacje",
+      "description": "Precyzyjny montaż dopasowany do potrzeb."
+    },
+    {
+      "number": "04",
+      "title": "Serwis techniczny",
+      "description": "Szybkie wsparcie i rzetelna obsługa."
+    }
+  ],
+  "stats": [
+    {
+      "number": "10+",
+      "label": "lat doświadczenia"
+    },
+    {
+      "number": "250+",
+      "label": "realizacji"
+    },
+    {
+      "number": "98%",
+      "label": "poleceń"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "Profesjonalna obsługa i świetny kontakt. Polecam!",
+      "author": "Przykładowa opinia — zamień na prawdziwą"
+    }
+  ]
+}

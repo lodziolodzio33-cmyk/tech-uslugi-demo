@@ -1,0 +1,126 @@
+media:
+  input: media
+  output: /media
+content:
+- name: site
+  label: Treści i ustawienia
+  type: file
+  path: content/site.json
+  format: json
+  fields:
+  - name: name
+    label: Nazwa firmy
+    type: string
+  - name: tag
+    label: Mały napis nad tytułem
+    type: string
+  - name: headline
+    label: Główny nagłówek
+    type: text
+  - name: intro
+    label: Opis w nagłówku
+    type: text
+  - name: industry
+    label: Opis branży
+    type: string
+  - name: hero
+    label: Hasło w sekcji O nas
+    type: string
+  - name: about
+    label: Opis firmy
+    type: text
+  - name: area
+    label: Obszar działania
+    type: string
+  - name: address
+    label: Adres
+    type: string
+  - name: cta
+    label: Tekst przycisku
+    type: string
+  - name: gallery_title
+    label: Tytuł galerii
+    type: string
+  - name: phone
+    label: Telefon
+    type: string
+  - name: email
+    label: E-mail publiczny
+    type: string
+  - name: whatsapp
+    label: 'WhatsApp: kod kraju i numer bez +'
+    type: string
+  - name: form_endpoint
+    label: Formspree endpoint (np. https://formspree.io/f/xxxx)
+    type: string
+  - name: hours
+    label: Godziny pracy
+    type: string
+  - name: instagram
+    label: Instagram URL
+    type: string
+  - name: facebook
+    label: Facebook URL
+    type: string
+  - name: map_url
+    label: Link do mapy Google
+    type: string
+  - name: seo_title
+    label: 'SEO: tytuł'
+    type: string
+  - name: seo_description
+    label: 'SEO: opis'
+    type: text
+  - name: services
+    label: Usługi
+    type: object
+    list: true
+    fields:
+    - name: number
+      label: Numer
+      type: string
+    - name: title
+      label: Nazwa
+      type: string
+    - name: description
+      label: Opis
+      type: text
+  - name: stats
+    label: Liczby
+    type: object
+    list: true
+    fields:
+    - name: number
+      label: Wartość
+      type: string
+    - name: label
+      label: Podpis
+      type: string
+  - name: testimonials
+    label: Opinie (tylko prawdziwe)
+    type: object
+    list: true
+    fields:
+    - name: quote
+      label: Treść
+      type: text
+    - name: author
+      label: Autor
+      type: string
+- name: gallery
+  label: Galeria
+  type: file
+  path: content/gallery.json
+  format: json
+  fields:
+  - name: images
+    label: Zdjęcia
+    type: object
+    list: true
+    fields:
+    - name: image
+      label: Zdjęcie
+      type: image
+    - name: caption
+      label: Podpis
+      type: string
